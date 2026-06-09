@@ -1,3 +1,43 @@
+docs/
+│
+├── ec2-setup.md
+├── prometheus-installation.md
+├── node-exporter-installation.md
+├── grafana-installation.md
+└── troubleshooting.md
+
+**ec2-setup.md**
+Launch EC2
+Open ports:
+22
+3000
+9090
+9100
+
+Connect via SSH
+
+
+**prometheus-installation.md**
+
+Prometheus installation steps
+Prometheus service creation
+Prometheus validation
+
+
+**node-exporter-installation.md**
+
+Download Node Exporter
+Create service
+Enable service
+Verify metrics
+
+**grafana-installation.md**
+
+Install Grafana
+Configure datasource
+Import dashboard 1860
+
+
 # Troubleshooting Guide
 
 ## Issue 1: SSH Timeout
